@@ -1,0 +1,16 @@
+
+use_frameworks!
+
+inhibit_all_warnings!
+
+platform :ios, '8.0'
+
+target 'ChartsDemo' do
+pod 'AFNetworking',	'3.1.0'
+pod 'Reachability',	'3.2'
+pod 'SDWebImage', '~> 3.8.1'
+pod 'Masonry', '1.0.1'
+pod 'Royalcms', :podspec => 'https://raw.githubusercontent.com/royalwang/royalcms-framework/master/Royalcms.podspec'
+pod 'Charts', '~> 2.2.5'
+
+end
